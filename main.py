@@ -29,7 +29,6 @@ class HashTable:
 hash_table = HashTable(10) 
 hash_table.insert("Ann", 98)
 hash_table.insert("John", 100)
-
 print(hash_table.get("Ann"))  
 print(hash_table.get("John")) 
 print(hash_table.get("Bob"))
